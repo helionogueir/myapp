@@ -19,7 +19,7 @@ class PublicRequest extends Controller {
     $this->smarty->setCompileDir($DIR->cache . DIRECTORY_SEPARATOR . 'smarty' . DIRECTORY_SEPARATOR . 'template');
     $this->smarty->setCacheDir($DIR->cache . DIRECTORY_SEPARATOR . 'smarty' . DIRECTORY_SEPARATOR . 'cache');
     $this->smarty->addPluginsDir(Path::replaceOSSeparator("{$DIR->plugin}/composer/helionogueir/languagepack/core/modifier"));
-    $this->smarty->force_compile = true;
+    $this->smarty->force_compile = false;
     $this->smarty->setTemplateDir(Array(
       "source" => $DIR->source
     ));
