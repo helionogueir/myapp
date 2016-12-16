@@ -1,0 +1,7 @@
+{
+    "home": {
+        "route": "home",
+        "name": "\\source\\module\\home\\controller\\Home",
+        "action": "page"
+    }
+}

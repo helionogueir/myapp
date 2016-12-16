@@ -1,0 +1,14 @@
+{
+    "config": {
+        "vendor-dir": "plugin/composer"
+    },
+    "require": {
+        "smarty/smarty": "v3.1.30",
+        "helionogueir/changedirective": "v1.0.0",
+        "helionogueir/filecreator": "v1.1.0",
+        "helionogueir/foldercreator": "v1.1.0",
+        "helionogueir/languagepack": "v1.1.0",
+        "helionogueir/routing": "v1.0.0",
+        "helionogueir/typeboxing": "v1.1.0"
+    }
+}

@@ -1,0 +1,6 @@
+cache
+plugin
+composer.lock
+environment.json
+mount.sh
+umount.sh

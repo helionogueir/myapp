@@ -1,0 +1,30 @@
+{
+    "url": {
+        "http": "http://myapp.localhost",
+        "https": "http://myapp.localhost"
+    },
+    "language": {
+        "locale": "pt-BR",
+        "collate": "utf-8"
+    },
+    "debug": {
+        "mode": "developer"
+    },
+    "cache": {
+        "lifetime": 43200
+    },
+    "timezone": {
+        "pt-BR": "America/Sao_Paulo"
+    },
+    "date": {
+        "input": "Y-m-d",
+        "output": "d/m/Y"
+    },
+    "time": {
+        "input": "H:i:s",
+        "output": "H:i"
+    },
+    "template": {
+        "package": "template/standard"
+    }
+}

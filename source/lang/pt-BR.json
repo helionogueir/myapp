@@ -1,0 +1,20 @@
+{
+    "general:name:no": "NAO",
+    "general:name:yes": "SIM",
+    "view:formname:blocked": "BLOQUEADO",
+    "view:formname:classification": "CLASSIFICACAO",
+    "view:formname:id": "ID",
+    "view:formname:ownerUser": "USUARIO RESPONSAVEL CADASTRO",
+    "view:formname:personalize": "PERSONALIZAR",
+    "view:formname:save": "SALVAR",
+    "view:formname:storage": "DOCUMENTOS",
+    "view:tabname:search": "BUSCAR",
+    "view:tabname:mainData": "DADOS PRINCIPAIS",
+    "view:tabname:specificData": "DADOS ESPECIFICOS",
+    "view:tabname:classification": "CLASSIFICACOES",
+    "view:tabname:address": "ENDERECOS",
+    "view:tabname:contact": "CONTATOS",
+    "view:tabname:financialData": "INFORMACOES FINANCEIRAS",
+    "view:tabname:company": "AMBIENTES",
+    "view:tabname:profile": "PERFIS"
+}
