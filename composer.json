@@ -9,6 +9,8 @@
         "helionogueir/foldercreator": "v1.1.0",
         "helionogueir/languagepack": "v1.1.0",
         "helionogueir/routing": "v1.0.0",
-        "helionogueir/typeboxing": "v1.1.0"
+        "helionogueir/typeboxing": "v1.1.0",
+        "helionogueir/database": "v1.0.0",
+        "helionogueir/shell": "v1.0.0"
     }
 }
