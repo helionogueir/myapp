@@ -4,7 +4,6 @@ namespace source\core;
 
 use source\core\environment\Directory;
 use source\core\environment\Configuration;
-use source\core\environment\CrossVersion;
 use helionogueir\routing\server\Autoload;
 use helionogueir\changedirective\cgi\Debug;
 use helionogueir\changedirective\cgi\Session;
@@ -27,7 +26,6 @@ class Environment {
         (new Session())->setMaxLifetime($ENV->cache->lifetime)->setPath($DIR->session)->start();
         (new Timezone())->set($ENV->timezone->{$ENV->language->locale});
         (new Locale())->set($ENV->language->locale, $ENV->language->collate);
-        (new CrossVersion())->prepare();
         Environment::request();
         return null;
     }

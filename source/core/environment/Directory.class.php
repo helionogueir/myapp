@@ -25,10 +25,11 @@ class Directory {
 
   private function definePathCache() {
     global $DIR;
+    $dir = new Create();
     $DIR->cache = $DIR->root . DIRECTORY_SEPARATOR . "cache";
     $DIR->session = $DIR->cache . DIRECTORY_SEPARATOR . "session";
-    (new Create())->mkdir($DIR->cache, 0777);
-    (new Create())->mkdir($DIR->session, 0777);
+    $dir->mkdir($DIR->cache, 0777);
+    $dir->mkdir($DIR->session, 0777);
     return null;
   }
 
